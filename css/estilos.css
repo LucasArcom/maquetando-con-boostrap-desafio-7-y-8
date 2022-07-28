@@ -1,0 +1,194 @@
+/* COLOR DE FONDO */
+body {background-color: burlywood;}
+
+
+
+/* ESTILOS DEL NAVBAR */
+.navbar-brand img {max-width: 70px;}
+.nav-link {color: black;}
+.nav-item {margin-left: 40px;}
+.nav-item {margin-right: 40px;}
+.ises-link {font-size: 25px !important;}
+.mb-lg-0 {margin: 0% !important;}
+
+.nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.ises-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.iniciar-sesion-link {
+    background-color: black;
+    color: white;
+}
+
+.iniciar-sesion-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-outline-success {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.btn-outline-success:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+
+
+/* ESTILOS DEL HEADER */
+header {text-align: center;}
+h1 {margin: 20px;}
+header p {
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+
+/* ESTILOS DE SECCIONES */
+.container {
+    background-color: white;
+}
+
+.autoridades {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.autoridades img {
+    max-width: 200px;
+    margin: 20px;
+}
+
+h4 {margin: 20px;}
+
+.parrafo-col {font-size: 25px;}
+
+.header {margin: 20px;}
+.row {align-items: center;}
+.col img {margin: 20px;}
+.flechas {max-width: 20px;}
+.galeria-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fecha-y-despedida {
+    font-size: 15px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+
+/* ESILOS DE FORMULARIOS */
+.is-r {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.boton-is {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.boton-is:hover {
+    color: black;
+    background-color: burlywood;
+    border-color: burlywood;
+}
+
+.segunda-opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segunda-opcion a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+.segunda-opcion a:hover {
+    color: black;
+    background-color: burlywood;
+}
+
+
+
+/* ESTILOS DEL FOOTER */
+footer {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "imagen item-1 item-2 item-3"
+    "derechos derechos derechos derechos";
+}
+
+footer img {max-width: 100px;}
+
+footer p {color: white;}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+}
+
+#grid-imagen {grid-area: imagen;}
+#grid-item-1 {grid-area: item-1}
+#grid-item-2 {grid-area: item-2;}
+#grid-item-3 {grid-area: item-3;}
+#grid-derechos {grid-area: derechos;}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 820px) {
+    .col img {width: 200px;}
+    .flechas {display: none;}
+    .boton-flechas {display: none;}
+    footer a {font-size: 10px;}
+}
+
+
+
+/* ANIMACIONES Y TRANSICIONES */
+footer a {
+    transition-duration: 0.3s;
+}
