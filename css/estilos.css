@@ -5,7 +5,11 @@ body {background-color: burlywood;}
 
 /* ESTILOS DEL NAVBAR */
 .navbar-brand img {max-width: 70px;}
-.nav-link {color: black;}
+.nav-link {
+    color: black;
+    border-radius: 20px;
+}
+.btn-outline-success {border-radius: 20px;}
 .nav-item {margin-left: 40px;}
 .nav-item {margin-right: 40px;}
 .ises-link {font-size: 25px !important;}
@@ -112,6 +116,7 @@ h4 {margin: 20px;}
     color: white;
     background-color: black;
     border-color: black;
+    border-radius: 20px;
 }
 
 .boton-is:hover {
@@ -132,6 +137,7 @@ h4 {margin: 20px;}
     background-color: black;
     padding: 5px;
     transition-duration: 0.3s;
+    border-radius: 20px;
 }
 
 .segunda-opcion a:hover {
@@ -163,6 +169,7 @@ footer a {
     color: white;
     font-size: 20px;
     padding: 10px;
+    border-radius: 20px;
 }
 
 footer a:hover {
